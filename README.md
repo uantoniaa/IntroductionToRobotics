@@ -45,7 +45,7 @@
 ### The Video 
 
 
-[![Watch the video](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/0110791c-bc7c-46d7-8b1d-37c64a8d04a5)](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
+[![Watch the video](https://raw.githubusercontent.com/uantoniaa/IntroductionToRobotics/main/assets/93488180/0110791c-bc7c-46d7-8b1d-37c64a8d04a5)](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
 
 
 

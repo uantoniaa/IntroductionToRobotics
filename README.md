@@ -44,7 +44,7 @@
 ### The Video 
 
 
-[![Watch the video]](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
+[Watch the video here!](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
 
 
 

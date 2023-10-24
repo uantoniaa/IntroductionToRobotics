@@ -9,6 +9,14 @@
 
 ## RGB LED Control with Potentiometers
 
+
+The homework contains:
+  - The project requirements and description; 
+  - A photo of the hardware setup;
+  - A link to the video showcasing the functionality;
+  - A link to the uploaded code;
+ 
+
 ### Objective
 * Interface potentiometers with Arduino to control an RGB LED's individual channels - Red, Green, Blue.
 * Learn to harness analog readings from potentiometers and utilize digital electronics techniques for LED control.
@@ -24,15 +32,6 @@
 ### Technical Implementation
 * Control each RGB channel of the LED using dedicated potentiometers.
 * The Arduino interprets the analog readings from the potentiometers and then produces a mapped output to the RGB LED pins for precise color adjustments.
-
-
-### Documentation & Publishing
-* The code related to this project has been uploaded to this repository.
-* The repository’s README (which you are currently viewing) contains:
-  - The project requirements and description.
-  - A photo of the hardware setup.
-  - A link to the video showcasing the functionality.
-
 
 
 ### Photos of the Hardware Setup

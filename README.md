@@ -12,7 +12,7 @@
 ### Objective
 * Interface potentiometers with Arduino to control an RGB LED's individual channels - Red, Green, Blue.
 * Learn to harness analog readings from potentiometers and utilize digital electronics techniques for LED control.
-
+* Adhere to a consistent and clean coding style, ensuring the code is well-commented and easily understandable by peers and reviewers.
 ### Components Used
 * 1 RGB LED 
 * 3 potentiometers 

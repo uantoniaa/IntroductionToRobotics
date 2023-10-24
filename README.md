@@ -4,8 +4,8 @@
 
 <details>
   <summary> 
-    Homework 1 
-  </summary> Homework 1 : 
+    Homework 1 : RGB LED Control with Potentiometers
+  </summary>  
 
 ## RGB LED Control with Potentiometers
 

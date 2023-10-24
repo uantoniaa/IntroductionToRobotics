@@ -37,7 +37,6 @@
 
 ### Photos of the Hardware Setup
 * A detailed view of the Arduino setup on a breadboard with the illuminated LED indicating its active state.
-* 
 ![RGB_ARDUINO_2](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/2f1f4875-0148-47ac-bb2a-1f435fe4fd37)
 
 
@@ -45,7 +44,7 @@
 ### The Video 
 
 
-[![Watch the video]()](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
+[![Watch the video]](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
 
 
 

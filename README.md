@@ -43,8 +43,6 @@
 
 ### The Video 
 
-[![Watch the video](path-to-thumbnail-image.png)](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
-
 
 
 https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/bcf7c899-4bfa-4532-9af6-8ca22cdfb726

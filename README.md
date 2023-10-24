@@ -29,3 +29,10 @@
   - A photo of the hardware setup.
   - A link to the video showcasing the functionality.
 
+### Photos of the Hardware Setup
+
+![RGB_ARDUINO_2](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/59aae4a1-5903-494e-9546-327ee4088d14)
+![RGB_ARDUINO_1](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/bba96a7f-2e7c-4e00-aaa3-7af532cd91be)
+¬ A detailed view of the Arduino setup on a breadboard with the illuminated LED indicating its active state. 
+
+

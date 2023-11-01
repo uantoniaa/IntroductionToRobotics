@@ -37,7 +37,7 @@ The homework contains:
 ### Photos of the Hardware Setup
 * A detailed view of the Arduino setup on a breadboard with the illuminated LED indicating its active state.
 
-![RGB_ARDUINO_2]([https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/2f1f4875-0148-47ac-bb2a-1f435fe4fd37](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/0a76ff24-16e9-4a27-9a91-aca6fe7d79e7))
+![RGB_ARDUINO_2](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/2f1f4875-0148-47ac-bb2a-1f435fe4fd37)
 
 
 ### Code 

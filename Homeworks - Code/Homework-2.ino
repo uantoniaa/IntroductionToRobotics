@@ -1,5 +1,5 @@
 // Define the LED pin numbers.
-const int LEDs[] = {9, 10, 11};
+const int LEDs[] = {9, 10, 12};
 
 // Define the button pin numbers.
 const int buttons[] = {2, 4, 5};
@@ -35,10 +35,10 @@ unsigned long lastBlinkTime;
 const long debounceTime = 50;
 
 // Time interval (in ms) for the operation LED to blink.
-const long blinkInterval = 500;
+const long blinkInterval = 300;
 
 // Duration (in ms) of the LED fade effect.
-const int fadeDuration = 2000;
+const int fadeDuration = 1200;
 
 void setup() {
   // Initialize the LED and button pins.

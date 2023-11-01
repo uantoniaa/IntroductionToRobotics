@@ -87,7 +87,7 @@ The homework contains:
 ### Photos of the Hardware Setup
 * A detailed view of the Arduino setup displaying the LEDs in their active state, buttons, and the buzzer.
 
-![ELEVATOR_SIMULATOR](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/0a76ff24-16e9-4a27-9a91-aca6fe7d79e7)
+![ELEVATOR_SIMULATOR](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/c9e10e5f-1de2-401b-a3c4-7406e65eba1c)
 
 ### Code 
 

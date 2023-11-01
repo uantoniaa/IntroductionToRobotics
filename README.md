@@ -37,12 +37,12 @@ The homework contains:
 ### Photos of the Hardware Setup
 * A detailed view of the Arduino setup on a breadboard with the illuminated LED indicating its active state.
 
-![RGB_ARDUINO_2](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/2f1f4875-0148-47ac-bb2a-1f435fe4fd37)
+![RGB_ARDUINO_2]([https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/2f1f4875-0148-47ac-bb2a-1f435fe4fd37](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/0a76ff24-16e9-4a27-9a91-aca6fe7d79e7))
 
 
 ### Code 
 
-[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/6ee04d73b294b4982529b5666733d88c5278c7d8/Homeworks%20-%20Code/Homework-1.ino)
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/a93bb2d2607094cfef58fd90feabdc4380ea290/Homeworks%20-%20Code/Homework-1.ino)
 
 
 
@@ -50,7 +50,10 @@ The homework contains:
 
 
 [Watch the video here!](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
+
+
 </details>
+
 <details>
   <summary> 
     Homework 2 : Elevator simulator wannabe
@@ -58,13 +61,41 @@ The homework contains:
  
  ## Elevator simulator wannabe
 
-
 The homework contains:
   - The project requirements and description; 
   - A photo of the hardware setup;
   - A link to the video showcasing the functionality;
   - A link to the uploaded code;
- 
+
+### Objective
+* Simulate a 3-floor elevator control system using LEDs, buttons, and optionally, a buzzer with Arduino.
+* Implement button debouncing techniques and coordinate multiple components to represent a real-world elevator system.
+
+### Components Used
+* LEDs (At least 4: 3 for the floors and 1 for the elevator’s operational state)
+* Buttons (At least 3 for floor calls)
+* Buzzer (1) - optional for Computer Science, mandatory for CTI
+* Resistors and wires as necessary
+
+### Technical Implementation
+* Use LEDs to indicate the elevator's current floor and operational state.
+* Incorporate buttons to simulate floor calls, leading to the elevator's movement towards the designated floor after a brief interval.
+* Use the buzzer for feedback, indicating elevator movement, door closures, and arrival at the desired floor.
+* Implement button debounce techniques to prevent accidental multiple calls.
+* Ensure the elevator’s operational LED blinks during movement and remains static when stationary.
+
+### Photos of the Hardware Setup
+* A detailed view of the Arduino setup displaying the LEDs in their active state, buttons, and the buzzer.
+
+![ELEVATOR_SIMULATOR](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/0a76ff24-16e9-4a27-9a91-aca6fe7d79e7)
+
+### Code 
+
+[Inspect the code here!]([Link_to_your_code](https://github.com/uantoniaa/IntroductionToRobotics/blob/a93bb2d2607094cfef58fd90feabdc4380ea290/Homeworks%20-%20Code/Homework-2.ino)))
+
+### Video 
+
+[Watch the video here!](Link_to_your_video)
 </details>
 
 

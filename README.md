@@ -91,7 +91,7 @@ The homework contains:
 
 ### Code 
 
-[Inspect the code here!]([Link_to_your_code](https://github.com/uantoniaa/IntroductionToRobotics/blob/a93bb2d2607094cfef58fd90feabdc4380ea290/Homeworks%20-%20Code/Homework-2.ino)))
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/a93bb2d2607094cfef58fd90feabdc4380ea290/Homeworks%20-%20Code/Homework-2.ino)
 
 ### Video 
 

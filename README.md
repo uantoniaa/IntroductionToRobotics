@@ -42,7 +42,7 @@ The homework contains:
 
 ### Code 
 
-[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/a93bb2d2607094cfef58fd90feabdc4380ea290/Homeworks%20-%20Code/Homework-1.ino)
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/80f7c4016df804830b67b5f0ae75f78f5ca3f558/Homeworks%20-%20Code/Homework-1.ino)
 
 
 
@@ -91,7 +91,7 @@ The homework contains:
 
 ### Code 
 
-[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/a93bb2d2607094cfef58fd90feabdc4380ea290/Homeworks%20-%20Code/Homework-2.ino)
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/80f7c4016df804830b67b5f0ae75f78f5ca3f558/Homeworks%20-%20Code/Homework-2.ino)
 
 ### Video 
 

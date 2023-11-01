@@ -55,29 +55,35 @@ void setup() {
 
 void loop() {
   // Check if any floor button is pressed.
-  for (int i = 0; i < 3; i++) {
-    // If a button is pressed and it's been longer than debounce time since the last button press...
-    if (digitalRead(buttons[i]) == LOW && millis() - lastButtonPressTime > debounceTime) {
-      lastButtonPressTime = millis(); // Update the last button press time.
+// Check if any floor button is pressed.
+for (int i = 0; i < 3; i++) {
+  // If a button is pressed and it's been longer than debounce time since the last button press.
+  if (digitalRead(buttons[i]) == LOW && millis() - lastButtonPressTime > debounceTime) {
+    lastButtonPressTime = millis(); // Update the last button press time.
 
-      // If the elevator isn't moving, set the target floor.
-      if (!isMoving) {
-        targetFloor = i; // Set the target floor.
+    // If the pressed floor is the same as the current floor or the target floor, ignore the press.
+    if (i == currentFloor || i == targetFloor) {
+      continue; // Skip to the next iteration of the loop without executing the code below.
+    }
 
-        // Determine the direction of movement.
-        if (currentFloor < targetFloor) {
-          nextFloor = currentFloor + 1;
-        } else if (currentFloor > targetFloor) {
-          nextFloor = currentFloor - 1;
-        }
+    // If the elevator isn't moving, set the target floor.
+    if (!isMoving) {
+      targetFloor = i; // Set the target floor.
 
-        isMoving = true; // Elevator starts moving.
-        tone(buzzerPin, 400); // Play a tone indicating the elevator started moving.
-
-        fadeStartTime = millis(); // Start the LED fade effect.
+      // Determine the direction of movement.
+      if (currentFloor < targetFloor) {
+        nextFloor = currentFloor + 1;
+      } else if (currentFloor > targetFloor) {
+        nextFloor = currentFloor - 1;
       }
+
+      isMoving = true; // Elevator starts moving.
+      tone(buzzerPin, 400); // Play a tone indicating the elevator started moving.
+
+      fadeStartTime = millis(); // Start the LED fade effect.
     }
   }
+}
 
   // If the elevator is moving, manage the LED fading effect.
   if (isMoving) {

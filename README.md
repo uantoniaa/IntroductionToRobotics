@@ -6,7 +6,6 @@
   <summary> 
     Homework 1 : RGB LED Control with Potentiometers
   </summary>  
-</details>
 ## RGB LED Control with Potentiometers
 
 
@@ -50,7 +49,7 @@ The homework contains:
 
 
 [Watch the video here!](https://youtube.com/shorts/LWe2Eiy1l58?feature=share)
-
+</details>
 <details>
   <summary> 
     Homework 2 : Elevator simulator wannabe

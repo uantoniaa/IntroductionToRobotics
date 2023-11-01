@@ -6,7 +6,8 @@
   <summary> 
     Homework 1 : RGB LED Control with Potentiometers
   </summary>  
-## RGB LED Control with Potentiometers
+
+ ## RGB LED Control with Potentiometers
 
 
 The homework contains:
@@ -54,6 +55,16 @@ The homework contains:
   <summary> 
     Homework 2 : Elevator simulator wannabe
   </summary>  
+ 
+ ## Elevator simulator wannabe
+
+
+The homework contains:
+  - The project requirements and description; 
+  - A photo of the hardware setup;
+  - A link to the video showcasing the functionality;
+  - A link to the uploaded code;
+ 
 </details>
 
 

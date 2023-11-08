@@ -100,3 +100,72 @@ The homework contains:
 </details>
 
 
+<details>
+  <summary> 
+    Homework 2 : 7 segment display drawing
+  </summary>  
+ 
+ ## 7 segment display drawing
+
+The homework contains:
+  - The project requirements and description; 
+  - A photo of the hardware setup;
+  - A link to the video showcasing the functionality;
+  - A link to the uploaded code;
+
+### Task Requirements
+
+- **General description:** Control a 7-segment display using a joystick to "draw" and toggle segments. Movement should be restricted to adjacent segments only.
+- **Components:**
+  - 1x 7-segment display
+  - 1x Joystick module
+  - Resistors and wires as needed
+- **Initial Position:** Start with the decimal point (DP) on the display.
+- **Functionality:**
+  - The current position blinks irrespective of segment state.
+  - Use the joystick to move between segment positions without "jumping" over segments.
+  - Short pressing the joystick button toggles the segment state (ON/OFF).
+  - Long pressing the joystick button resets the display, turning all segments OFF and returning to DP.
+- **Interrupts:** Required for CTI students. 
+
+
+
+## Objectives
+
+The primary goals of this homework are to:
+
+1. **Understand and Implement Direct Digital Control**: Utilize the digital input from a joystick to control the state of a digital output device, a 7-segment display, in real-time.
+
+2. **Develop Efficient Code**: Create a program that responds to user input without the use of blocking functions such as `delay()`, which can prevent real-time interaction. Instead, use `millis()` or `micros()` to manage timing without halting the execution of the code.
+
+3. **Practice Debouncing**: Implement software debouncing for the joystick button to ensure accurate detection of short and long presses without false triggering due to contact bounce.
+
+4. **Learn to Use Interrupts**: For CTI students, an objective is to correctly utilize interrupts to process the joystick input, thereby learning about interrupt service routines and their role in embedded systems. For Computer Science students, this serves as an additional challenge.
+
+5. **Algorithm Development**: Devise algorithms to navigate between adjacent segments on the 7-segment display in a controlled and predictable manner, as per the given movement table, ensuring that the transitions are logical and do not "jump" over segments.
+
+6. **Implement State Toggle through User Input**: Use the joystick button to toggle the state of the segments on the display, allowing the user to "draw" by turning segments on and off.
+
+7. **Design a User Reset Feature**: Implement a reset functionality that, upon a long press of the joystick button, turns off all segments and resets the display position to the decimal point (DP).
+
+8. **Creative Expansion**: Encourage creative thinking by allowing for bonus points on the addition of extra features such as sounds, lights, or other interactive components.
+
+Through the completion of these objectives, students will gain hands-on experience with direct control of hardware, software debouncing, interrupt handling, and state management, all of which are foundational concepts in robotics and embedded systems programming.
+
+### Photos of the Hardware Setup
+* A detailed view of the Arduino setup.
+
+![7 segment display drawing](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/80b6ad45-ab9a-4d28-a5f8-fe9cdf6f4b23)
+)
+
+
+### Code 
+
+[Inspect the code here!]()
+
+
+
+### Video 
+
+[Watch the video here!](https://youtube.com/shorts/gSbU59CDnUo?feature=share)
+</details>

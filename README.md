@@ -102,7 +102,7 @@ The homework contains:
 
 <details>
   <summary> 
-    Homework 2 : 7 segment display drawing
+    Homework 3 : 7 segment display drawing
   </summary>  
  
  ## 7 segment display drawing
@@ -161,7 +161,7 @@ Through the completion of these objectives, students will gain hands-on experien
 
 ### Code 
 
-[Inspect the code here!]()
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/c60f9609c446237807a38a9e6778f6c4cd2ae9d2/Homeworks%20-%20Code/Homework-3.ino)
 
 
 

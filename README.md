@@ -173,7 +173,7 @@ Through the completion of these objectives, students will gain hands-on experien
 
 <details>
   <summary> 
-    Homework 5 :  Stopwatch Timer
+    Homework 4:  Stopwatch Timer
   </summary>  
 
 The homework contains:
@@ -200,7 +200,7 @@ Button functionalities:
 
 ### Code 
 
-[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/80f7c4016df804830b67b5f0ae75f78f5ca3f558/Homeworks%20-%20Code/Homework-2.ino)
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/a64797d8e8da7022f92dc4f8bf1d0e35e4d69b4c/Homeworks%20-%20Code/Homework-4.ino)
 
 ### Video 
 

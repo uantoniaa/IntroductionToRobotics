@@ -169,3 +169,40 @@ Through the completion of these objectives, students will gain hands-on experien
 
 [Watch the video here!](https://youtube.com/shorts/gSbU59CDnUo?feature=share)
 </details>
+
+
+<details>
+  <summary> 
+    Homework 5 :  Stopwatch Timer
+  </summary>  
+
+The homework contains:
+  - The project requirements and description; 
+  - A photo of the hardware setup;
+  - A link to the video showcasing the functionality;
+  - A link to the uploaded code;
+
+### Objective
+* The primary goal of this assignment is to create a functional and interactive stopwatch timer using a 4-digit 7-segment display and three buttons. This task will challenge students to apply their skills in digital electronics, programming logic, and user interface design.
+
+  ### Technical Implementation
+*The 4-digit 7-segment display should start at "000.0".
+Button functionalities:
+*Button 1: Start/pause.
+*Button 2: Reset (in pause mode) or reset saved laps (in lap viewing mode).
+*Button 3: Save lap (in counting mode) or cycle through last saved laps (up to 4 laps).
+
+### Photos of the Hardware Setup
+* A detailed view of the Arduino setup displaying the LEDs in their active state, buttons, and the buzzer.
+
+![Stopwatch Timer](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/6278af40-7dc6-45fc-ad39-4c50e5614d98)
+
+
+### Code 
+
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/80f7c4016df804830b67b5f0ae75f78f5ca3f558/Homeworks%20-%20Code/Homework-2.ino)
+
+### Video 
+
+[Watch the video here!](https://youtube.com/shorts/PJygiogoYvA?si=OAt7j-lUY0WDj-IZ)
+</details>

@@ -176,6 +176,9 @@ Through the completion of these objectives, students will gain hands-on experien
     Homework 4:  Stopwatch Timer
   </summary>  
 
+
+ ## Stopwatch timer
+
 The homework contains:
   - The project requirements and description; 
   - A photo of the hardware setup;

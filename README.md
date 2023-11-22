@@ -276,8 +276,5 @@ The homework contains:
 
 [Watch the video here!](https://www.youtube.com/watch?v=mhOKYdul1Sk)
 
-### Submission and Coding Standards
-* Ensure clean, readable, and well-commented code.
-* Submit through MS Teams after updating the GitHub repository.
 
 </details>

@@ -1,7 +1,7 @@
-# I have a problem in the code (probably related to memory): I can't scrolling through all the menus,
-# I mean at some point, after a few scrolls through the menu, it returns to the main menu. Another problem is that 
-# I haven't implemented the requirement for the LED to light up when it gets dark and to turn off when there is light.
-# Also, there may be a little extra code :)
+// I have a problem in the code (probably related to memory) - I can't scrolling through all the menus,
+// (at some point, after a few scrolls through the menu, it returns to the main menu)
+// Another problem is that I haven't implemented the requirement for the LED to light up when it gets dark and to turn off when there is light.
+// Also, there may be a little extra code :)
 #include <EEPROM.h>
 
 // Pin Definitions

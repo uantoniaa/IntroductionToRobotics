@@ -209,3 +209,75 @@ Button functionalities:
 
 [Watch the video here!](https://youtube.com/shorts/PJygiogoYvA?si=OAt7j-lUY0WDj-IZ)
 </details>
+
+<details>
+  <summary> 
+    Homework 5: Smart Environment Monitor and Logger
+  </summary>  
+
+## Smart Environment Monitor and Logger
+
+The homework contains:
+  - The project requirements and description; 
+  - A photo of the hardware setup;
+  - A link to the video showcasing the functionality;
+  - A link to the uploaded code;
+
+### Objective
+* Develop a "Smart Environment Monitor and Logger" using Arduino.
+* Utilize various sensors to gather environmental data, log this data into EEPROM, and provide feedback via an RGB LED.
+* Implement a user interface through a Serial Menu.
+
+### Components Used
+* Arduino Uno Board
+* Ultrasonic Sensor (HC-SR04)
+* LDR (Light-Dependent Resistor)
+* RGB LED
+* Resistors as needed
+* Breadboard and connecting wires
+* (Optional) Additional sensors/components for extended functionality
+
+### Technical Implementation
+* Integrate sensor readings and memory management for environmental monitoring.
+* Implement Serial Communication for user interaction and system configuration.
+* Establish a menu system for adjusting sensor settings and viewing logged data.
+* Provide visual feedback using an RGB LED based on sensor readings and thresholds.
+
+### Menu Structure
+1. Sensor Settings
+   - Adjust Sensors Sampling Interval
+   - Set Ultrasonic Alert Threshold
+   - Configure LDR Alert Threshold
+2. Reset Logger Data
+   - Confirm deletion of data
+3. System Status
+   - View current sensor readings and settings
+   - Display logged data
+4. RGB LED Control
+   - Manual Color Control
+   - Toggle Automatic Mode for LED based on sensor alerts
+
+### Be Careful
+- Avoid excessive writing to EEPROM.
+- Ensure sensors are correctly calibrated.
+- Implement error handling for Serial Communication.
+
+### Photos of the Hardware Setup
+* A detailed view of the Arduino setup with sensors and the RGB LED.
+
+![Smart_Environment_Monitor_Setup](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/8bd71ee8-0d3c-4478-af17-2ac16ae51ef6)
+
+
+### Code 
+
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/main/Homeworks%20-%20Code/Homework-5.ino)
+
+### Video 
+
+[Watch the video here!](https://www.youtube.com/watch?v=mhOKYdul1Sk)
+
+### Submission and Coding Standards
+* Ensure clean, readable, and well-commented code.
+* Submit through MS Teams after updating the GitHub repository.
+
+</details>

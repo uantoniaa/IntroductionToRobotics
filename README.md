@@ -243,24 +243,7 @@ The homework contains:
 * Establish a menu system for adjusting sensor settings and viewing logged data.
 * Provide visual feedback using an RGB LED based on sensor readings and thresholds.
 
-### Menu Structure
-1. Sensor Settings
-   - Adjust Sensors Sampling Interval
-   - Set Ultrasonic Alert Threshold
-   - Configure LDR Alert Threshold
-2. Reset Logger Data
-   - Confirm deletion of data
-3. System Status
-   - View current sensor readings and settings
-   - Display logged data
-4. RGB LED Control
-   - Manual Color Control
-   - Toggle Automatic Mode for LED based on sensor alerts
 
-### Be Careful
-- Avoid excessive writing to EEPROM.
-- Ensure sensors are correctly calibrated.
-- Implement error handling for Serial Communication.
 
 ### Photos of the Hardware Setup
 * A detailed view of the Arduino setup with sensors and the RGB LED.
@@ -274,7 +257,7 @@ The homework contains:
 
 ### Video 
 
-[Watch the video here!](https://www.youtube.com/watch?v=mhOKYdul1Sk)
+[Watch the video here!](https://youtu.be/6L7syGTK26M?si=1O16G_nDEn6O_oeO)
 
 
 </details>

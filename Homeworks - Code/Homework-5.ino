@@ -1,3 +1,7 @@
+# I have a problem in the code (probably related to memory): I can't scrolling through all the menus,
+# I mean at some point, after a few scrolls through the menu, it returns to the main menu. Another problem is that 
+# I haven't implemented the requirement for the LED to light up when it gets dark and to turn off when there is light.
+# Also, there may be a little extra code :)
 #include <EEPROM.h>
 
 // Pin Definitions
@@ -180,7 +184,7 @@ void handleSerialMenu() {
   } else if (choice == "4") {
     handleLEDControl();
   } else {
-    handleSerialMenu(); // Re-display this menu
+    handleSerialMenu(); // Redisplay this menu
   }
 }
 
@@ -210,7 +214,7 @@ void handleSensorSettingsMenu() {
   } else if (choice == "4") {
     handleSerialMenu(); // Return to the main menu
   } else {
-    handleSensorSettingsMenu(); // Re-display this menu
+    handleSensorSettingsMenu(); // Redisplay this menu
   }
 }
 
@@ -222,8 +226,7 @@ void setUltrasonicSamplingInterval() {
     int interval = Serial.parseInt();
     if (interval > 0) {
         ultrasonicSampleInterval = interval;
-        // Update EEPROM if necessary
-        // EEPROM.update(addrUltrasonicSampleInterval, ultrasonicSampleInterval);
+        EEPROM.update(addrUltrasonicSampleInterval, ultrasonicSampleInterval);
         Serial.print("Ultrasonic sampling interval set to ");
         Serial.print(ultrasonicSampleInterval);
         Serial.println(" seconds.");
@@ -259,8 +262,7 @@ void setLdrSamplingInterval() {
     int interval = Serial.parseInt();
     if (interval > 0) {
         ldrSampleInterval = interval;
-        // Update EEPROM if necessary
-        // EEPROM.update(addrLdrSampleInterval, ldrSampleInterval);
+        EEPROM.update(addrLdrSampleInterval, ldrSampleInterval);
         Serial.print("LDR sampling interval set to ");
         Serial.print(ldrSampleInterval);
         Serial.println(" seconds.");
@@ -439,7 +441,7 @@ void handleLEDControl() {
 
   String choice = Serial.readStringUntil('\n');
   choice.trim(); // Remove any whitespace
-  Serial.print("Received choice: '"); // Debug print
+  Serial.print("Received choice: '"); 
   Serial.print(choice);
   Serial.println("'");
   if (choice == "1") {
@@ -578,9 +580,7 @@ void logSensorData(int ultrasonicReading, int ldrReading) {
 
 
 bool isValidUltrasonicReading(int reading) {
-    // Replace with actual validation logic
-    // For example, check if reading is within a reasonable range
-    return reading > 0 && reading < 500; // Example condition
+    return reading > 0 && reading < 500; 
 }
 
 String readSerialInput() {
@@ -602,9 +602,7 @@ void checkEEPROMSettings() {
 }
 
 bool isValidLDRReading(int reading) {
-    // Replace with actual validation logic for the LDR
-    // For example, check if reading is within a reasonable range
-    return reading >= 300 && reading <= 900; // Example condition for typical LDR readings
+    return reading >= 300 && reading <= 900; 
 }
 
 void setLdrThreshold() {

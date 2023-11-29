@@ -261,3 +261,59 @@ The homework contains:
 
 
 </details>
+
+<details>
+  <summary> 
+    Homework 6: Mini 8x8 LED Matrix Game
+  </summary> 
+
+## Mini 8x8 LED Matrix Game
+
+The homework contains:
+
+The project requirements and description;
+ - A photo of the hardware setup;
+ - A link to the video showcasing the functionality;
+ - A link to the uploaded code;
+
+### Objective
+* Create an interactive game on an 8x8 LED matrix, incorporating elements like a player, bombs/bullets, and walls.
+*Explore creativity and programming skills by designing a game with a unique concept and engaging mechanics.
+
+
+### Components Used
+* Arduino Uno Board
+* Joystick
+* 8x8 LED Matrix
+* MAX7219 LED Driver
+* Resistors and capacitors as needed
+* Breadboard and connecting wires
+* (Optional) Additional sensors/components for extended functionality (I didn't use)
+
+### Technical Implementation
+* Utilize the 8x8 LED matrix for game display.
+* Implement controls using a joystick to navigate the player across the matrix.
+* Program different blinking patterns for various game elements (player, bombs/bullets, walls).
+* Ensure smooth control and logical placement of walls and other elements in the game.
+
+ 
+### Photos of the Hardware Setup
+* A detailed view of the Arduino setup with the 8x8 LED Matrix and controls.
+8x8 LED Matrix Game
+
+![8x8 LED Matrix Game](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/8bd71ee8-0d3c-4478-af17-2ac16ae51ef6)
+
+
+### Code 
+
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/main/Homeworks%20-%20Code/Homework-5.ino)
+
+### Video 
+
+[Watch the video here!](https://youtu.be/6L7syGTK26M?si=1O16G_nDEn6O_oeO)
+
+
+</details>
+
+
+Note: The repository is continually updated with new homework and materials. 

@@ -271,14 +271,14 @@ The homework contains:
 
 The homework contains:
 
-The project requirements and description;
+ - The project requirements and description;
  - A photo of the hardware setup;
  - A link to the video showcasing the functionality;
  - A link to the uploaded code;
 
 ### Objective
 * Create an interactive game on an 8x8 LED matrix, incorporating elements like a player, bombs/bullets, and walls.
-*Explore creativity and programming skills by designing a game with a unique concept and engaging mechanics.
+* Explore creativity and programming skills by designing a game with a unique concept and engaging mechanics.
 
 
 ### Components Used
@@ -301,16 +301,17 @@ The project requirements and description;
 * A detailed view of the Arduino setup with the 8x8 LED Matrix and controls.
 8x8 LED Matrix Game
 
-![8x8 LED Matrix Game](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/8bd71ee8-0d3c-4478-af17-2ac16ae51ef6)
+![8x8 LED Matrix Game](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/03a89de9-a496-478c-b2b9-3daf4b44c0b8)
+
 
 
 ### Code 
 
-[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/main/Homeworks%20-%20Code/Homework-5.ino)
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/main/Homeworks%20-%20Code/Homework-6.ino)
 
 ### Video 
 
-[Watch the video here!](https://youtu.be/6L7syGTK26M?si=1O16G_nDEn6O_oeO)
+[Watch the video here!](https://youtu.be/q8Z4gM8RU_o)
 
 
 </details>

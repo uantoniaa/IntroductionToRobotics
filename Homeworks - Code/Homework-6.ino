@@ -165,54 +165,6 @@ void updateDisplay() {
       if (gameMap[i][j] == 1) {
         lc.setLed(0, i, j, true); // Display a wall on the LED matrix
       } else if (gameMap[i][j] == 2) {
-        // Blink the player LED at regular inte
-
-      }
-    }
-  }
-}
-
-void movePlayer() {
-  // Read the analog values from the joystick
-  int xVal = analogRead(pinX); // X-axis
-  int yVal = analogRead(pinY); // Y-axis
-
-  // Determine the new position based on joystick input
-  int newX = playerX, newY = playerY;
-
-  // Adjust player position based on joystick input
-  if (xVal < 400) newX--; // Move left
-  else if (xVal > 600) newX++; // Move right
-
-  if (yVal < 400) newY--; // Move up
-  else if (yVal > 600) newY++; // Move down
-
-  // Check if the new position is within the game boundaries
-  if (newX >= 0 && newX < cols && newY >= 0 && newY < rows) {
-    if (gameMap[newX][newY] == 1) {
-      // If the new position is a wall, "destroy" the wall
-      gameMap[newX][newY] = 0;
-    } 
-    if (gameMap[newX][newY] == 0) {
-      // Move the player to the new position
-      gameMap[playerX][playerY] = 0; // Clear the old position
-      playerX = newX; // Update player's X-coordinate
-      playerY = newY; // Update player's Y-coordinate
-      gameMap[playerX][playerY] = 2; // Mark the new position as occupied by the player
-    }
-  }
-}
-
-void updateDisplay() {
-  // Get the current time
-  unsigned long currentMillis = millis();
-
-  // Iterate over each cell of the game map
-  for (int i = 0; i < rows; i++) {
-    for (int j = 0; j < cols; j++) {
-      if (gameMap[i][j] == 1) {
-        lc.setLed(0, i, j, true); // Display a wall on the LED matrix
-      } else if (gameMap[i][j] == 2) {
         // Blink the player LED at regular intervals
         if (currentMillis - lastBlinkTime >= blinkInterval) {
           isPlayerLedOn = !isPlayerLedOn; // Toggle player LED state

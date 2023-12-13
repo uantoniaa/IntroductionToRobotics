@@ -377,7 +377,7 @@ The homework contains:
 
 ### Video 
 
-[Watch the video here!](https://youtu.be/q8Z4gM8RU_o)
+[Watch the video here!](https://youtube.com/shorts/3U1ponJdBFM?si=txwzC9yQKrqHgWDE )
 
 </details>
 

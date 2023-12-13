@@ -317,4 +317,68 @@ The homework contains:
 </details>
 
 
+
+
+<details>
+  <summary> 
+    Homework 7:  Basic matrix functionality
+  </summary> 
+ 
+##  Basic matrix functionality
+
+The homework contains:
+
+ - The project requirements and description;
+ - A photo of the hardware setup;
+ - A link to the video showcasing the functionality;
+ - A link to the uploaded code;
+
+### Objective
+* Develop basic matrix functionality for an 8x8 LED Matrix game.
+* Implement a user interface with an introductory message, settings menu, and end game message.
+* Enhance the game experience with dynamic gameplay elements such as time tracking, level progression, and lives.
+
+
+### Components Used
+* Arduino Uno Board
+* Joystick
+* 8x8 LED Matrix
+* MAX7219 LED Driver
+* Resistors and capacitors as needed
+* Breadboard and connecting wires
+* LCD LED
+* (Optional) Additional sensors/components for extended functionality (I didn't use)
+
+### Task Requirements
+1. **Intro Message**: Display a greeting message when the game starts.
+2. **Menu Options**:
+   - *Start Game*: Begins the game at the initial level.
+   - *Settings*: 
+     - LCD brightness control with EEPROM save/load feature.
+     - Matrix brightness control with EEPROM save/load feature.
+   - *About*: Information about the game's creators, including the game name, author, and a GitHub link.
+3. **End Message**: Show a message at the game's conclusion and wait for user interaction to return to the main menu.
+4. **Gameplay Features**:
+   - Display dynamic game details like time, level, and lives.
+   - Implement an end game/level functionality with a concluding message.
+
+
+ 
+### Photos of the Hardware Setup
+* A detailed view of the Arduino setup with the 8x8 LED Matrix, LCD LED and controls.
+8x8 LED Matrix Game
+
+![8x8 LED Matrix Game](https://github.com/uantoniaa/IntroductionToRobotics/assets/93488180/e2f2ebdf-f867-4767-a73d-e6068ed73f00)
+
+
+### Code 
+
+[Inspect the code here!](https://github.com/uantoniaa/IntroductionToRobotics/blob/main/Homeworks%20-%20Code/Homework-7.ino)
+
+### Video 
+
+[Watch the video here!](https://youtu.be/q8Z4gM8RU_o)
+
+</details>
+
 Note: The repository is continually updated with new homework and materials. 

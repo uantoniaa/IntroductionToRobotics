@@ -1,3 +1,4 @@
+// nu imi merge cand apas. o sa schimb intre timp
 #include "LedControl.h" 
 #include <LiquidCrystal.h>
 #include <EEPROM.h>
